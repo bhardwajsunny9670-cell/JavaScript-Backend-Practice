@@ -1,3 +1,5 @@
+//build a script that does all read, append, rename, delete
+//adn handle the case where file dosen't exist with ENOENT message.
 const fs = require('fs');
 
 fs.writeFileSync("notes.txt","Hello Node");

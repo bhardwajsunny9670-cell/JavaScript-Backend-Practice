@@ -1,3 +1,12 @@
+//Build a full CRUD REST API for tasks, in-memory array storage (no DB yet):
+//GET /tasks — list all
+//GET /tasks/:id — get one
+//POST /tasks — create (with validation middleware from Task 4)
+//PUT /tasks/:id — update
+//DELETE /tasks/:id — delete
+//Wrap everything with your logger + error-handling middleware
+
+
 const express = require('express');
 const app = express();
 
